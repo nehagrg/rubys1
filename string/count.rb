@@ -1,0 +1,6 @@
+a = "hello world"
+puts "#{a.count "lo"}"           
+ puts "#{a.count "lo", "o"}"       
+puts "#{a.count "hello", "^l"}"   
+puts "#{a.count "ej-m"}"         
+puts "#{a.count "world","^o"}"
