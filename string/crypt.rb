@@ -1,0 +1,1 @@
+puts "hello".crypt("world")
