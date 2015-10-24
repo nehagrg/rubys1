@@ -1,0 +1,12 @@
+begin 
+file=open("unexistence file")
+if file
+ puts "open succesfully"
+end
+
+ 
+rescue
+ file=HEKK
+end
+
+print file,"==",HEKK,"\n"
